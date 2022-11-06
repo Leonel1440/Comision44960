@@ -40,7 +40,7 @@ header nav ul li a{
     text-align: center;
     margin: 14px;
 }
-a:hover{
+.link:hover{
     color: #ffff;
 }
 header ul{
@@ -48,7 +48,7 @@ header ul{
 }
 
 div h1{
-    margin: 8px 0px;
+    margin: 2px 0px;
     padding-left: 20px;
 }
 div h1 a{
@@ -78,7 +78,7 @@ div h1 a{
     background-color: rgb(34, 58, 82);
     border-radius: 5px;
     color: white;
-
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ div h1 a{
     list-style: none;
 }
 .menu img{
-    width: 210px;
+    width: 97%;
     opacity: 0.5;
     padding-left: 4px;
     margin-bottom: 16px;
@@ -183,7 +183,7 @@ div h1 a{
     padding-left: 5px;
     border-radius: 6px;
 }
-button{
+.boton1{
     margin-left: 100px;
 }
 
