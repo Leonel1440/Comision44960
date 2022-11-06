@@ -88,6 +88,7 @@ div h1 a{
 
     list-style: none;
 }
+
 .menu img{
     width: 97%;
     opacity: 0.5;
@@ -96,6 +97,13 @@ div h1 a{
     overflow: hidden;
     transition: all 500ms ease;
     border-radius: 5px;
+    cursor:pointer;
+}
+.menu p{
+    font-size: 2.6rem;
+    color: white;
+    position: absolute;
+    left: 30px;
 }
 .menu img:hover{
     transform: scale(1.2)
@@ -187,9 +195,15 @@ div h1 a{
 .casillero input{
     padding-left: 5px;
     border-radius: 6px;
+    width: 50%;
+}
+.casillero textarea{
+    width: 50%;
 }
 .boton1{
-    margin-left: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 100px;
 }
 
 
