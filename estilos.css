@@ -291,6 +291,24 @@ footer a svg{
 
 /* ESTO ES CONTACTO */
 
-.contacto main__section-formulario{
-    margin-bottom: 1000px;
+.body__contacto{
+    background-image: url(./assets/fondo.jpg);
+    background-attachment: fixed;
+    /* background-repeat: no-repeat;
+    object-fit: cover;
+    No se usa el object-fit para la imagen, se deberá usar el background-size:cover */
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius: 5px;
+}
+.main__section-formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(216, 189, 149); 
+    margin: 100px;
+    border-radius: 5px;
+    border: 10px solid white;  
+    padding: 20px 80px
 }
