@@ -288,3 +288,9 @@ footer a svg{
     border: 10px solid white;  
 
 }
+
+/* ESTO ES CONTACTO */
+
+.contacto main__section-formulario{
+    margin-bottom: 1000px;
+}
