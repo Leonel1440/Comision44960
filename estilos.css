@@ -64,7 +64,7 @@ div h1 a{
     grid-gap: 40px 20px;
     
 }
-
+/* ESTO ES EL INDEX */
 /* .main.menu{
     width: 320px;
     height: 250px;
@@ -252,4 +252,39 @@ footer a svg{
     flex-direction: row;
     justify-content: center;
     color: white;
+}
+
+/* ESTO ES PREGUNTAS FRECUENTES */
+
+.section__preguntas .pregunta{
+    margin-bottom: 50px;
+    font-weight:600;
+    text-align: center;
+} 
+
+.body__preguntas{
+    background-image: url(./assets/fondo.jpg);
+    background-attachment: fixed;
+    /* background-repeat: no-repeat;
+    object-fit: cover;
+    No se usa el object-fit para la imagen, se deberá usar el background-size:cover */
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius: 5px;
+    
+}
+.main__preguntas{
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(216, 189, 149);
+    padding: 2%;
+    border-radius: 25px;
+    color: black;
+    font-size: medium;
+    margin: auto;
+    margin-top: 170px;  
+    margin-bottom: 70px;  
+    border: 10px solid white;  
+
 }
