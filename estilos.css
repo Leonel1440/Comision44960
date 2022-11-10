@@ -320,7 +320,23 @@ footer a svg{
         margin-left: 100px;
 
     }
-}
+    .main__section-menu{
+        display: none;
+        
+    }
+    .section{
+        margin-left: -50px ;
+        width: 132%;
+    }
+    .main__section-formulario p{
+        font-size: small;
+    }
+    .main__section-formulario input, .main__section-formulario label{
+        font-size: 13px;
+    }
+    .main__section-formulario input{
+        width: 100%;
+    }
 /* ESTO ES CONTACTO */
 
 .body__contacto{
