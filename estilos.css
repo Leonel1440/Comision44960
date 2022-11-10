@@ -289,6 +289,33 @@ footer a svg{
 
 }
 
+@media (max-width: 767px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+    .header img{
+        display: none;
+    }
+    .main__preguntas{
+        width: 340px;
+        height: 1200px;
+    }
+    .main__preguntas p, .main__preguntas h2{
+        font-size: medium;
+
+    }
+    .footer{
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .redes_sociales{
+        display: flex;
+    }
+}
 /* ESTO ES CONTACTO */
 
 .body__contacto{
