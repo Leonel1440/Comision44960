@@ -190,12 +190,20 @@ div h1 a{
     margin: 18px 5px;
     display: flex;
     flex-direction: column;
+
 }
 
 .casillero input{
     padding-left: 5px;
     border-radius: 6px;
     width: 50%;
+    animation-name: mianimado;
+    animation-duration: 2s;
+}
+@keyframes mianimado {
+    0% {width: 10%;}
+    50% {width: 30%;}
+    100% {width: 50%;}
 }
 .casillero textarea{
     width: 50%;
