@@ -403,7 +403,7 @@ footer a svg{
     overflow-y: hidden;
 }
 .main__section img {
-    height: 210px;
+    height: 190px;
     box-shadow: 0px 0px 15px black;
     margin-right: 50px;
     transition: transform 1s;
