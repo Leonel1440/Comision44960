@@ -100,9 +100,6 @@ div h1 a{
     background-color: black;
     background-image: url(./assets/fondo.jpg);
     background-attachment: fixed;
-    /* background-repeat: no-repeat;
-    object-fit: cover;
-    No se usa el object-fit para la imagen, se deberá usar el background-size:cover */
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
