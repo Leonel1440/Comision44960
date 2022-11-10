@@ -2,19 +2,14 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(212, 207, 205);
-    /* background-image: url(/assets/fondo.jpg);
-    background-size: cover;
-    background-attachment: fixed */
 }
 
 
 .header{
-    /* background-color: rgb(189, 140, 67); */
     background-color: rgb(34, 58, 82);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* con Justify-content: flex end, puedo posicionar el menu hacia la derecha, pero si tengo dos contenedores (un div que encierra el título y el menu con sus li, me conviene usar space-between para dejar a ambos hacia los costados */
     height: 70px;
     flex: wrap;
     align-content: center;
@@ -32,9 +27,6 @@ header nav ul li a{
     font-weight: bold;
 }
 .header__nav li{
-    /* position: relative;
-    left: 1350px;
-    padding: 0px 15px; */
     list-style: none;
     display: inline-block;
     text-align: center;
@@ -64,14 +56,6 @@ div h1 a{
     grid-gap: 40px 20px;
     
 }
-/* ESTO ES EL INDEX */
-/* .main.menu{
-    width: 320px;
-    height: 250px;
-    overflow: hidden;
-    transition: all 500ms ease;
-    border-radius: 5px;
-} */
 .main__section-menu{
     grid-column: 1/2;
     grid-row: 3/6;
