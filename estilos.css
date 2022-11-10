@@ -366,9 +366,6 @@ footer a svg{
 .body__ofertas{
     background-image: url(./assets/fondo.jpg);
     background-attachment: fixed;
-    /* background-repeat: no-repeat;
-    object-fit: cover;
-    No se usa el object-fit para la imagen, se deberá usar el background-size:cover */
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -412,4 +409,40 @@ footer a svg{
 .main__section img:hover{
     z-index: 0;
     transform: scale(1.1);
+}
+
+/* ESTO ES CATALOGO */
+.body__catalogo{
+    background-image: url(./assets/fondo.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius: 5px;
+}
+.main__section-catalogo {
+    width: 1200px;
+    background-color: rgb(216, 189, 149);
+    padding: 2%;
+    border-radius: 25px;
+    color: black;
+    font-size: medium;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;      
+    border: 10px solid white;  
+
+}
+.main__section-catalogo img{
+    width: 150px;
+    margin: 20px;
+}
+.main_section_catalogo{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px;
+    margin:auto;
+}
+.main_section-catalogo .mainsection_books{
+    overflow: hidden;
 }
