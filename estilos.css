@@ -325,7 +325,7 @@ footer a svg{
         
     }
     .section{
-        margin-left: -50px ;
+        margin-left: -60px ;
         width: 132%;
     }
     .main__section-formulario p{
@@ -337,6 +337,7 @@ footer a svg{
     .main__section-formulario input{
         width: 100%;
     }
+}
 /* ESTO ES CONTACTO */
 
 .body__contacto{
