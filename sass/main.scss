@@ -410,6 +410,12 @@ footer a svg{
         display: flex;
         flex-direction: column;
         height: 200px;
+        h1{
+            padding-top: 15px;
+            a{
+                margin-left: 50px;
+            }
+        }
     }
     .header img{
         display: none;
@@ -439,11 +445,11 @@ footer a svg{
     }
     .footer .redes_sociales{
         display: flex;
+        margin-left: 40px;
     }
     .footer .copyright h2{
         font-size: medium;
-        margin-left: 100px;
-
+        margin-left: 130px;
     }
     .main__section-menu{
         display: none;
@@ -467,14 +473,14 @@ footer a svg{
         flex-direction: column;
     }
     .main__section-catalogo {
-        width: 400px;
+        width: 377px;
     }
     .main_section_books img{
         width: 122px;
     }
     .main__section-formulario-contacto{
         width: 300px;
-        margin: 100px 80px;
+        margin: 100px 50px;
         padding: 40px 30px;
         .casillero{
             input{
@@ -495,7 +501,12 @@ footer a svg{
         grid-row-gap:  40px;
         .main__section{
             width: 300px;
-            margin: 80px 80px 0px 80px;
+            margin: 80px 80px 0px 50px;
+        }
+    }
+    .form__index{
+        button{
+            margin-left: 60px;
         }
     }
     #section1{
