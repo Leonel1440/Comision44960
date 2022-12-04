@@ -511,6 +511,9 @@ footer a svg {
     margin-top: 30px;
     margin-left: 70px;
   }
+  .main__section-formulario {
+    padding: 40px 40px;
+  }
   .main__ofertas {
     display: grid;
     grid-template-columns: repeat(7, 400px);
